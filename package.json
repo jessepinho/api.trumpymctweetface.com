@@ -2,7 +2,7 @@
   "name": "api.trumpymctweetface.com",
   "version": "1.0.0",
   "description": "The API behind trumpymctweetface.com",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jessepinho/api.trumpymctweetface.com#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2"
   }
 }
