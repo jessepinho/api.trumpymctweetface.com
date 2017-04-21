@@ -1,0 +1,19 @@
+{
+  "name": "api.trumpymctweetface.com",
+  "version": "1.0.0",
+  "description": "The API behind trumpymctweetface.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessepinho/api.trumpymctweetface.com.git"
+  },
+  "author": "Jesse Pinho <jesse@jessepinho.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessepinho/api.trumpymctweetface.com/issues"
+  },
+  "homepage": "https://github.com/jessepinho/api.trumpymctweetface.com#readme"
+}
