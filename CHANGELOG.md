@@ -1,3 +1,10 @@
+### 1.1.0
+
+* [`c3d6f0e`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/c3d6f0e5ba12adb351ae54ce734d7ff12e0b7788) **chore:** add Procfile
+* [`4f12126`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/4f12126b8d9ec6c5348679db7482f05c8ce5dfac) **feat:** use the default port used by 'heroku local'
+* [`f8969bf`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/f8969bf9ef5f823a8a43a6043718bb5b66dd6759) **feat:** set up CORS
+
+
 ### 1.0.0
 
 * [`0de4af1`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/0de4af139bed9aad3296aa97521ee02df93d14bc) **chore:** run `npm init`
