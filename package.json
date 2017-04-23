@@ -1,6 +1,6 @@
 {
   "name": "api.trumpymctweetface.com",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The API behind trumpymctweetface.com",
   "main": "index.js",
   "scripts": {
