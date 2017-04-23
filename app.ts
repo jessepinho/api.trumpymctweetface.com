@@ -8,4 +8,4 @@ const proxy = httpProxy
     },
     target: 'https://api.twitter.com',
   })
-  .listen(3000);
+  .listen(process.env.PORT || 3000);
