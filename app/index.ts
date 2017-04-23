@@ -12,6 +12,14 @@ const proxy = httpProxy
     target: 'https://api.twitter.com',
   });
 
+proxy.on('proxyRes', function(proxyRes, req, res) {
+  if (process.env.NODE_ENV === 'development') {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+  } else {
+    res.setHeader('Access-Control-Allow-Origin', 'http://trumpymctweetface.com');
+  }
+});
+
 app.get('/1.1/statuses/user_timeline.json', function(req, res) {
   if (req.query.screen_name === 'realDonaldTrump') {
     proxy.web(req, res);
