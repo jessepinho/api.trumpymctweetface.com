@@ -28,4 +28,8 @@ app.get('/1.1/statuses/user_timeline.json', function(req, res) {
   }
 });
 
+app.get('/1.1/statuses/show.json', function(req, res) {
+  proxy.web(req, res);
+});
+
 app.listen(process.env.PORT || 5000);
