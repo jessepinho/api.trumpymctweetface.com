@@ -1,3 +1,8 @@
+### 1.2.0
+
+* [`f6c96de`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/f6c96deda9d157307ff1a69c77c5743c1f978f02) **feat:** add route to proxy individual tweet requests
+
+
 ### 1.1.0
 
 * [`c3d6f0e`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/c3d6f0e5ba12adb351ae54ce734d7ff12e0b7788) **chore:** add Procfile
