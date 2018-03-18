@@ -1,3 +1,17 @@
+### 1.2.1
+
+* [`8550f8a`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/8550f8a668ee0efa7240478e60c81063899f53fc) **chore:** upgrade Node.js version on Heroku
+* [`4b758a4`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/4b758a4cd7240cc467a9c37ff1c77c17a30d934a) **chore:** use Yarn
+* [`85f3eb7`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/85f3eb746e732b3d7aff7d56ce0df78748dfd70f) **chore:** 'firebase init'
+* [`687de45`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/687de453d625cc9eb6751d1800ab11c250886164) **chore:** move the Express app into functions/
+* [`7f9e6df`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/7f9e6df7d28bec867f3b05edcb88d3ce2dae73f5) **chore:** export the app
+* [`18f59ea`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/18f59ea564986c55adbb8a8edbf84d4418d7c588) **chore:** install dependencies
+* [`eb6cd4a`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/eb6cd4ae30204af213277a192e7a594af66627f3) **chore:** Git-ignore compiled Firebase functions
+* [`e951a01`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/e951a01417fc1e13e287d395197d0bb9bdb639f7) **fix:** use Firebase config instead of environment variables
+* [`8d1075d`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/8d1075d1829a5a941f4a5009517f493f6b02f28f) **chore:** Git-ignore runtime config
+* [`592ddcd`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/592ddcd3f962ca37cbbb20b618da654c61dbd091) **chore:** remove unneeded Procfile
+
+
 ### 1.2.0
 
 * [`f6c96de`](https://github.com/jessepinho/api.trumpymctweetface.com/commit/f6c96deda9d157307ff1a69c77c5743c1f978f02) **feat:** add route to proxy individual tweet requests
