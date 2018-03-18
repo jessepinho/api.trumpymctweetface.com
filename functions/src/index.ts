@@ -8,7 +8,7 @@ const proxy = httpProxy
   .createProxyServer({
     changeOrigin: true,
     headers: {
-      Authorization: `Bearer ${process.env.TWITTER_BEARER_TOKEN}`,
+      Authorization: `Bearer ${functions.config().twitter.token}`,
     },
     target: 'https://api.twitter.com',
   });
