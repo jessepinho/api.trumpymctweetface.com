@@ -1,4 +1,5 @@
 import * as express from 'express';
+import * as functions from 'firebase-functions';
 import * as httpProxy from 'http-proxy';
 
 const app = express();
@@ -32,4 +33,4 @@ app.get('/1.1/statuses/show.json', function(req, res) {
   proxy.web(req, res);
 });
 
-app.listen(process.env.PORT || 5000);
+export const api = functions.https.onRequest(app);
